@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Conway's Game of Life - by Yash Atre</title>
+    
+</head>
+<body>
+    <h1>Conway's Game of Life - by Yash Atre</h1>
+
+    <div class="grid-control">
+        <h5>Choose grid size</h5>
+        <label for="rows">Rows: </label>
+        <input type="number" id="rows" min="1" max="100" value="20">
+        <label for="cols">Columns: </label>
+        <input type="number" id="cols" min="1" max="100" value="30">
+        <button id="generateButton">Generate Grid</button>
+        <button id="startButton">Start</button>
+        <button id="pauseButton">Pause</button>
+        <button id="resetButton">Reset</button>
+        <div><h5>Select Cells</h5>
+        <label for="selectCount">Count: </label>
+        <input type="number" id="selectCount" min="1" value="1">
+        <button id="selectCellsButton">Select Cells</button></div>
+    </div>
+
+    <div id="gridContainer"></div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  h1 {
+    background-color: #6b9aa4;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+    color: #2e0606;
+  }
+  
+  
+  #gridContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+  }
+  
+  .grid-control {
+    display: flex;
+    flex-wrap:nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: auto; 
+  }
+  
+  .grid-control h5 {
+    margin: 0 10px 0 0;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .grid-control label {
+    margin: 5px 10px 5px 0;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .grid-control input {
+    margin: 5px 10px 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .grid-control button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+  .grid-control button:hover {
+    background-color: #771b1b;
+  }
+  
+  .grid {
+    display: grid;
+    grid-gap: 0px;
+    justify-content: center;
+    background-color: #458c99;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #2e0606;
+    background-color: #ffffff;
+  }
+  
+  .cell.selected {
+    background-color: #4CAF50;
+  }
+  
+  
+  
